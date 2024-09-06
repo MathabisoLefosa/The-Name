@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    background-image: url('iii.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-position: center; /* Centers the background image */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: blueviolet;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: black; /* Semi-transparent background */
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    text-align: center;
+    border-bottom: black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* About Us Section */
+#about {
+    padding: 30px;
+    background-image: url('www.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    color: black;
+    text-align: center;
+}
+
+#about h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
